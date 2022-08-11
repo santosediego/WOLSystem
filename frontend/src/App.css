@@ -1,18 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --color-primary: #191A19;
+  --color-secondary: #4E9F3D;
+}
+
 * {
   margin: 0;
   padding: 0;
-}
-.App {
-  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background: var(--color-primary);
 }
