@@ -4,6 +4,7 @@
   --color-primary: #191A19;
   --color-secondary: #4E9F3D;
   --color-tertiary: #323937;
+  --toastify-icon-color-success: var(--color-secondary) !important;
 }
 
 * {
@@ -19,4 +20,12 @@ body {
   width: 100%;
   overflow-x: hidden;
   background: var(--color-primary);
+}
+
+.Toastify__toast-theme--dark {
+  background-color: var(--color-tertiary) !important;
+}
+
+.Toastify__progress-bar--animated {
+  background: var(--color-secondary) !important;
 }

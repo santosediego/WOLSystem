@@ -12,7 +12,6 @@ function Navbar() {
                                 About
                             </a>
                         </li>
-                        <button>Login</button>
                     </ul>
                 </nav>
             </div>
