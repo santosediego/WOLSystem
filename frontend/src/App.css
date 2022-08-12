@@ -3,6 +3,7 @@
 :root {
   --color-primary: #191A19;
   --color-secondary: #4E9F3D;
+  --color-tertiary: #323937;
 }
 
 * {
